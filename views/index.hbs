@@ -1,0 +1,132 @@
+<!--Portada-->
+<link rel="stylesheet" href="../css/estiloslider.css">
+<section class="banner">
+        <div class="banner-content">
+            <h1>Videos Favoritos</h1>
+            <h6>Ver no es suficiente, tienes que sentir lo que te esta transmitiendo</h6>
+            <a href="/signin">Let's start now </a>   
+        </div>
+
+    </section>
+
+
+<section class="page-section bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Videos</h2>
+            <hr color="teal" size=3 width="150">
+        </div>
+        
+    
+        <!-- Portfolio Grid Items-->
+        <div class="row">
+            {{#each data}}
+            <!-- Portfolio Item 1-->
+            <div class="col-md-6 col-lg-4 mb-5">
+                                    <a class="portfolio-link" href="/detail/{{id}}">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i
+                                class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <iframe class="img-fluid" width="397" height="260" src="{{url}}" frameborder="0"
+                        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4  align="center" class="card-title text-uppercase">
+                        {{name}}
+                    </h4>
+                    </a>
+<div  align="center">
+
+                    <h4 class="card-title text-uppercase">
+                        {{red_name}}
+                    </h4>
+                    <p class="card-title text-uppercase">
+                        {{category}}
+                    </p>
+
+                        <p>{{username}}</p>
+
+                 
+                     {{#if voto}}
+                <div>
+                    <label><i class="fas fa-heart" style="color: red;"></i> {{voto}}/3 </label>
+                </div>
+                {{else}}
+                <div>
+                    <label><i class="fas fa-heart-broken"></i> 0/3 </label>
+                </div>
+
+                {{/if}}
+                </div>
+            </div>                
+            </div>
+
+
+        {{/each}}
+                </div>
+
+</section>
+
+<section class="masthead  text-dark text-center">
+            <div class="header1 d-flex align-items-center flex-column">
+                <h2 class="page-section-heading text-center text-uppercase text-dark">Informacion.</h2>
+                <img class="masthead-avatar mb-5" 
+                src="img/persona.png" alt="" />
+                <!-- About Section Content-->
+                    <div class="masthead-subheading font-weight-light mb-0">
+                        <p>Diana Fernanda Lopez Zendejas</p>
+                        <p class="masthead-subheading font-weight-light mb-0">
+                           Ingenieria en Tecnologías de Información 
+                            y comunicaciones.</p>
+                        <p class="masthead-subheading font-weight-light mb-0">
+                           No. control 17240391.</p>
+                    </div>
+            </div>      
+        </section>
+
+{{>footer}}
+
+<script type="text/javascript">
+
+    function calificarIndex() {
+        var videos = document.getElementsByClassName("video");
+        var votos = document.getElementsByClassName("votos");
+        var prom = 0;
+        for (var i = 0; i < videos.length; i++) {
+            var ident = videos[i].value;
+            var radio1 = document.getElementById("r1" + ident);
+            var radio2 = document.getElementById("r2" + ident);
+            var radio3 = document.getElementById("r3" + ident);
+            var radio4 = document.getElementById("r4" + ident);
+            var radio5 = document.getElementById("r5" + ident);
+
+            prom = votos[i].value;
+            for (var j = 0; j <= prom; j++) {
+                console.log(prom);
+                switch (j) {
+                    case 1:
+                        radio1.style = "color: orange";
+                        break;
+                    case 2:
+                        radio2.style = "color: orange";
+                        break;
+                    case 3:
+                        radio3.style = "color: orange";
+                        break;
+                    case 4:
+                        radio4.style = "color: orange";
+                        break;
+                    case 5:
+                        radio5.style = "color: orange";
+                        break;
+                    default:
+                        console.log("no funciona");
+                }
+            }
+        }
+    };
+    window.onload = calificarIndex;
+
+</script>
+
+

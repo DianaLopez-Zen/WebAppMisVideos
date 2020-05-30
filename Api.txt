@@ -1,0 +1,523 @@
+Prueba REST API 
+http://localhost:4000/api
+
+JSON
+
+{
+    "data": [
+        {
+            "id": 48,
+            "name": "Dua Lipa - Physical (Official Video)",
+            "url": "https://www.youtube.com/embed/9HDEHj2yzew",
+            "description": "Dua Lipa - Physical (Official Video)",
+            "category": "Musica",
+            "username": "ah",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 10
+        },
+        {
+            "id": 47,
+            "name": "Deportes",
+            "url": "https://www.youtube.com/embed/SMkboVslKhc",
+            "description": ",",
+            "category": "Deportes",
+            "username": "Ferni13",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 16
+        },
+        {
+            "id": 46,
+            "name": "Vis a vis oasis",
+            "url": "https://www.youtube.com/embed/PE7p_Oyonb8",
+            "description": ".",
+            "category": "Series",
+            "username": "Ferni13",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 16
+        },
+        {
+            "id": 45,
+            "name": "El samsung del futuro",
+            "url": "https://www.youtube.com/embed/JUhHvyQZUbo",
+            "description": ".",
+            "category": "Tecnologia",
+            "username": "Adele17",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 44,
+            "name": "Aros de Hula hula",
+            "url": "https://www.metacafe.com/embed/12078146/insane-amount-of-hula-hoops/",
+            "description": ".",
+            "category": "Entretenimiento",
+            "username": "Adele17",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 43,
+            "name": "??????????????",
+            "url": "https://player.vimeo.com/video/244218963?",
+            "description": ".",
+            "category": "Experimental",
+            "username": "Adele17",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 42,
+            "name": "Enemigo intimo temp 2",
+            "url": "https://www.youtube.com/embed/VTnSPQQ2Bwo",
+            "description": ".",
+            "category": "Telenovelas",
+            "username": "Adele17",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 41,
+            "name": "Claridad Menudo",
+            "url": "https://www.youtube.com/embed/pUAI-0HWUGU",
+            "description": ".",
+            "category": "musica",
+            "username": "Adele17",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 40,
+            "name": "You're my music",
+            "url": "https://player.vimeo.com/video/244198119",
+            "description": ",",
+            "category": "experimental",
+            "username": "Adele17",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 39,
+            "name": "Pavo real",
+            "url": "https://www.metacafe.com/embed/12077973/peacock-displaying-majestic-feathers/",
+            "description": ".",
+            "category": "Animales",
+            "username": "Adele17",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 38,
+            "name": "Trucos de Cocina",
+            "url": "https://www.youtube.com/embed/oQgDCsPDoG0",
+            "description": ".",
+            "category": "Cocina",
+            "username": "Adele17",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 15
+        },
+        {
+            "id": 37,
+            "name": "Como aplicar sombras",
+            "url": "https://www.youtube.com/embed/teywup91utA",
+            "description": ".",
+            "category": "Tutoriales",
+            "username": "Karilop25",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 36,
+            "name": "Loro inteligente",
+            "url": "https://www.metacafe.com/embed/12078143/clever-parrot-knows-to-operate-water-tap/",
+            "description": ".",
+            "category": "Comedia",
+            "username": "Karilop25",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 35,
+            "name": "The Universe in Verse",
+            "url": "https://player.vimeo.com/video/396310771?color=ffdb00",
+            "description": ".",
+            "category": "Conferencias",
+            "username": "Karilop25",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 34,
+            "name": "Anatomia de Grey despedida de Alex Krev",
+            "url": "https://www.youtube.com/embed/tiaZjbcIjVs",
+            "description": ",",
+            "category": "series",
+            "username": "Karilop25",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 33,
+            "name": "Egipto",
+            "url": "https://www.youtube.com/embed/3VsfescV7ag",
+            "description": ",",
+            "category": "países",
+            "username": "Karilop25",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 32,
+            "name": "Moonwalk público por un grupo",
+            "url": "https://www.metacafe.com/embed/12076488/public-moonwalk-by-a-group/",
+            "description": ",",
+            "category": "social",
+            "username": "Karilop25",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 31,
+            "name": "Singularity ",
+            "url": "https://player.vimeo.com/video/411239105?",
+            "description": ",",
+            "category": "musica",
+            "username": "Karilop25",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 30,
+            "name": "Nothing Else Matters",
+            "url": "https://www.youtube.com/embed/tAGnKpE4NCI",
+            "description": ".",
+            "category": "Rock pesado",
+            "username": "Karilop25",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 14
+        },
+        {
+            "id": 29,
+            "name": "ALlex x el mundo Ubud",
+            "url": "https://www.youtube.com/embed/z-SGIBaVRak",
+            "description": ",",
+            "category": "Viajes",
+            "username": "Geras12",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 28,
+            "name": "Amor Toxico",
+            "url": "https://www.youtube.com/embed/A_cUhkmlaoE",
+            "description": ".",
+            "category": "banda",
+            "username": "Geras12",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 27,
+            "name": "4 elementos",
+            "url": "https://www.youtube.com/embed/PPj5RrELggI",
+            "description": ".",
+            "category": "Deportes",
+            "username": "Geras12",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 26,
+            "name": "Aparatos",
+            "url": "https://player.vimeo.com/video/112131677",
+            "description": ",",
+            "category": "Tecnologia",
+            "username": "Geras12",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 25,
+            "name": "40 y 20",
+            "url": "https://www.youtube.com/embed/aSkhfsCj28Y",
+            "description": ",",
+            "category": "Programas de te",
+            "username": "Geras12",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 24,
+            "name": "muñecas de equilibrio",
+            "url": "https://www.metacafe.com/embed/12078347/remember-the-balancing-dolls/",
+            "description": ",",
+            "category": "recuerdos",
+            "username": "Geras12",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 23,
+            "name": "BLOOMS",
+            "url": "https://player.vimeo.com/video/116582567",
+            "description": ".",
+            "category": "arte",
+            "username": "Geras12",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 22,
+            "name": "Tus Jefes no me quieren",
+            "url": "https://www.youtube.com/embed/eS1arr93M14",
+            "description": ".",
+            "category": "Cumbia",
+            "username": "dianiis",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 2
+        },
+        {
+            "id": 21,
+            "name": "Face to Face",
+            "url": "https://player.vimeo.com/video/392605479",
+            "description": ".",
+            "category": "Comedia",
+            "username": "dianiis",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 2
+        },
+        {
+            "id": 20,
+            "name": "Blinding Lights",
+            "url": "https://www.youtube.com/embed/4NRXx6U8ABQ",
+            "description": ".",
+            "category": "Electronica",
+            "username": "dianiis",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 2
+        },
+        {
+            "id": 19,
+            "name": "colors",
+            "url": "https://www.youtube.com/embed/JGulAZnnTKA",
+            "description": "buena cancion",
+            "category": "Pop",
+            "username": "dianiis",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 2
+        },
+        {
+            "id": 18,
+            "name": "How Do You Edit an Animated Film?",
+            "url": "https://player.vimeo.com/video/198404476",
+            "description": ".",
+            "category": "Infantil",
+            "username": "dianiis",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 2
+        },
+        {
+            "id": 17,
+            "name": "Habilidades",
+            "url": "https://www.metacafe.com/embed/11895451/when-you-try-to-show-off-your-skills-everywhere/",
+            "description": "Bien",
+            "category": "Ejercicio",
+            "username": "dianiis",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 2
+        },
+        {
+            "id": 16,
+            "name": "THE HEART OF SOBA",
+            "url": "https://player.vimeo.com/video/192834629?",
+            "description": "deliciosa",
+            "category": "Comida",
+            "username": "dianiis",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 2
+        },
+        {
+            "id": 15,
+            "name": "Fantasmas",
+            "url": "https://www.youtube.com/embed/igbWEKCXd0c",
+            "description": "Miedo",
+            "category": "Fenomenos natur",
+            "username": "Enaniis",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 14,
+            "name": "Bromas",
+            "url": "https://www.youtube.com/embed/YlNbkKtJYb0",
+            "description": "Risa",
+            "category": "Youtubers",
+            "username": "Enaniis",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 13,
+            "name": "Atraves del vaso",
+            "url": "https://www.youtube.com/embed/0E7KbIy0cIA",
+            "description": "buena cancion",
+            "category": "Banda",
+            "username": "Enaniis",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 12,
+            "name": "Bulldog",
+            "url": "https://www.metacafe.com/embed/12078345/how-a-bulldog-likes-to-drink/",
+            "description": "Risa",
+            "category": "Animales",
+            "username": "Enaniis",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 11,
+            "name": "Pez",
+            "url": "https://player.vimeo.com/video/258344685",
+            "description": "Buen documental",
+            "category": "Pez",
+            "username": "Enaniis",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 10,
+            "name": "Los niños ya no son inocentes",
+            "url": "https://www.metacafe.com/embed/12077763/kids-are-not-innocent-anymor/",
+            "description": "Excelente",
+            "category": "risa",
+            "username": "Enaniis",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 9,
+            "name": "Amor Foda",
+            "url": "https://www.youtube.com/embed/kLpH1nSLJSs",
+            "description": "buen video",
+            "category": "Reggaeton",
+            "username": "Enaniis",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 8,
+            "name": "ADERerror ",
+            "url": "https://player.vimeo.com/video/373413708",
+            "description": "buen video",
+            "category": "ha",
+            "username": "Enaniis",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 13
+        },
+        {
+            "id": 6,
+            "name": "STUPID LOVE",
+            "url": "https://www.youtube.com/embed/1fUggShCJXM",
+            "description": "STUPID LOVE: NO SE QUE PENSAR DE ESTA PALETA DE LADY GAGA | HAUS LABORATORIES",
+            "category": "Makeup",
+            "username": "ah",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 10
+        },
+        {
+            "id": 5,
+            "name": "TestMeta",
+            "url": "https://www.metacafe.com/embed/1246974/bebe_danaja/",
+            "description": " Test\r\n",
+            "category": "Test",
+            "username": "madi",
+            "red_name": "Matacfe",
+            "voto": null,
+            "user_id": 9
+        },
+        {
+            "id": 4,
+            "name": "Test",
+            "url": "https://player.vimeo.com/video/31186939?color=ff9933&byline=0&portrait=0",
+            "description": "Test",
+            "category": "Test",
+            "username": "madi",
+            "red_name": "Vimeo",
+            "voto": null,
+            "user_id": 9
+        },
+        {
+            "id": 3,
+            "name": "Be Kind ",
+            "url": "https://www.youtube.com/embed/flEc35foIg0",
+            "description": "A like song",
+            "category": "Pop electronica",
+            "username": "Geras12",
+            "red_name": "Youtube",
+            "voto": null,
+            "user_id": 8
+        },
+        {
+            "id": 2,
+            "name": "Quedate Lejos",
+            "url": "https://www.youtube.com/embed/NQDMaUiMBRk",
+            "description": "Buena letra",
+            "category": "Pop",
+            "username": "dianiis",
+            "red_name": "Youtube",
+            "voto": 5,
+            "user_id": 2
+        }
+    ],
+    "fav": [
+        {
+            "id": 2,
+            "url": "https://www.youtube.com/embed/NQDMaUiMBRk",
+            "voto": 5
+        }
+    ]
+}
+
